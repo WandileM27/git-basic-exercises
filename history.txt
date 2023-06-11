@@ -1,0 +1,65 @@
+    1  sudo apt update
+    2  sudo install telegram-desktop
+    3  sudo apt install telegram-desktop
+    4  telegram-desktop
+    5  sudo apt install whatsapp-desktop
+    6  sudo apt install whatsapp
+    7  sudo apt install whatsapp desktop
+    8  sudo apt install Whatsapp-Desktop
+    9  ls
+   10  cd Documents/
+   11  ls
+   12  sudo install sf-pro-display-font/
+   13  sudo install apt sf-pro-display-font/
+   14  sudo apt install software-properties-common apt-transport-https wget gpg
+   15  -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+   16  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+   17  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+   18  sudo apt update
+   19  sudo apt install code
+   20  cd Downloads/
+   21  ls
+   22  $ sudo apt update
+   23  sudo apt update
+   24  sudo apt install ./code_1.52.1-1608136922_amd64.deb
+   25  # apt-get install git
+   26  sudo apt-get update && sudo apt-get upgrade -y sudo apt-get install git  -y
+   27  git status
+   28  sudo apt install git
+   29  git status
+   30  mkdir git-basic-exercises
+   31  cd git-basic-exercises/
+   32  git init
+   33  giut status
+   34  git status
+   35  touch README.md
+   36  git log
+   37  git add .
+   38  git status
+   39  git commit -m "initial commit"
+   40  git config --global user.email "wandilemawela4@gmail.com"
+   41  git config --global user.name "WandileM27"
+   42  git commit -m "initial commit"
+   43  git log
+   44  nano README.md 
+   45  cat README.md 
+   46  git add README.md 
+   47  git commit -m "second commit"
+   48  nano README.md 
+   49  git add README.md 
+   50  git commit -m "third commit"
+   51  git log
+   52  git checkout 70d20d551f0cf4557bb8f596ab67e14535fe0b05
+   53  cat README.md 
+   54  git checkout master 
+   55  cat README.md 
+   56  git checkout -b milkshake-flavours
+   57  nano milkshakes.md
+   58  git status
+   59  git add milkshakes.md 
+   60  git commit -m "added initial flavours"
+   61  git log
+   62  git checkout master 
+   63  git status
+   64  git checkout -b history
+   65  history>history.txt
