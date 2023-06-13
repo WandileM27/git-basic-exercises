@@ -63,3 +63,152 @@
    63  git status
    64  git checkout -b history
    65  history>history.txt
+   66  cat history.txt 
+   67  clear
+   68  git add history.txt 
+   69  git commit -m "added history"
+   70  git checkout milkshake-flavours 
+   71  nano README.md 
+   72  git add README.md 
+   73  git commit -m "random readme changes"
+   74  git checkout history 
+   75  cat README.md 
+   76  rm README.md 
+   77  echo "booya" > README.md
+   78  git add README.md 
+   79  git commit -m "rewrote readme"
+   80  git checkout master 
+   81  ls
+   82  git log
+   83  git checkout milkshake-flavours 
+   84  ls
+   85  git log
+   86  git checkout history 
+   87  ls
+   88  git log
+   89  git checkout  master 
+   90  git merge milkshake-flavours 
+   91  ls
+   92  git log
+   93  git checkout history 
+   94  git merge master 
+   95  git log --merge
+   96  git diff
+   97  cat README.md 
+   98  ls
+   99  git merge --abort
+  100  ls
+  101  cat README.md 
+  102  nano README.md 
+  103  git merge master 
+  104  \git add .
+  105  git commit -m "resolving merging errors"
+  106  git merge master 
+  107  git diff
+  108  nano README.md 
+  109  \git add .
+  110  git commit -m "resolving merging errors"
+  111  git merge master 
+  112  git status
+  113  git merge master
+  114  git log
+  115  git checkout master 
+  116  git log
+  117  git remote add origin https://github.com/WandileM27/git-basic-exercises.git
+  118  git branch -M main
+  119  git push -u origin main
+  120  git remote add origin https://github.com/WandileM27/git-basic-exercises.git
+  121  git branch -M main
+  122  git push -u origin main
+  123  git push
+  124  git checkout history 
+  125  git push --set upstream origin history 
+  126  git push
+  127  $ git config --global user.name "Mona Lisa"
+  128  $ git config --global user.name "WandileM27"
+  129  git config --global user
+  130  git config --global user.name
+  131  clear
+  132  cd ../
+  133  git clone https://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@github.com/Umuzi-org/a-repo-to-clone.git
+  134  cd a-repo-to-clone/
+  135  git checkout a-branch-with-few-commits
+  136  git branch
+  137  git log
+  138  git branch -a
+  139  git fetch
+  140  git checkout a-branch-with-a-few-commits 
+  141  git remote -v
+  142  git status
+  143  git log
+  144  git branch -a
+  145  * master
+  146  git remote -v
+  147  https://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@github.com/Umuzi-org/a-repo-to-clone.git
+  148  originhttps://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@github.com/Umuzi-org/a-repo-to-clone.git (fetch)
+  149  originhttps://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@github.com/Umuzi-org/a-repo-to-clone.git
+  150  origin https://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@github.com/Umuzi-org/a-repo-to-clone.git
+  151  https://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@github.com/Umuzi-org/a-repo-to-clone.git
+  152  cd ../
+  153  cd git-basic-exercises/
+  154  touch ignore-me.db
+  155  nano .gitignore
+  156  git status
+  157  mkdir large-directory-that-should-be-local-only
+  158  cd large-directory-that-should-be-local-only/
+  159  touch README.md
+  160  nano README.md r
+  161  ls
+  162  nano README.md 
+  163  cd ...
+  164  cd ..
+  165  nano .gitignore
+  166  git status
+  167  git add .gitignore 
+  168  git commit -m "added .gitignore"
+  169  git push
+  170  git checkout main 
+  171  mkdir large-directory-that-should-be-local-only
+  172  mv large-directory-that-should-be-local-only/
+  173  mv --help 
+  174  rm large-directory-that-should-be-local-only/
+  175  rm -r large-directory-that-should-be-local-only/
+  176  ls
+  177  git status
+  178  git revert
+  179  git reset
+  180  ls
+  181  git log
+  182  git checkout history 
+  183  ls
+  184  ls -a
+  185  touch .gitignore 
+  186  ls
+  187  echo .gitignore 
+  188  git reset
+  189  echo .gitignore 
+  190  git status
+  191  git checkout main 
+  192  mkdir large-directory-that-should-be-local-only
+  193  ls -a
+  194  nano .gitignore
+  195  cd large-directory-that-should-be-local-only/
+  196  nano README.md
+  197  cd ..
+  198  nano .gitignore 
+  199  git status
+  200  git add .gitignore 
+  201  git commit -m "added .gitignore"
+  202  git push
+  203  cd git-basic-exercises/
+  204  git merge history 
+  205  git add .
+  206  git commit -m "fixed
+  207  git commit -m "fixed"
+  208  cd git-basic-exercises/
+  209  git status
+  210  ls
+  211  git push
+  212  cd git-basic-exercises/
+  213  git checkout history 
+  214  history > history.txt

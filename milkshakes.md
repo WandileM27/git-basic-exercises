@@ -1,3 +1,3 @@
-vinilla
+vanilla
 strawberry
 chocolate
